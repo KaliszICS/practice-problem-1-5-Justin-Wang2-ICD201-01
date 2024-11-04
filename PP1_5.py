@@ -1,8 +1,8 @@
 import math
 def q1():
-num = input("Input an integer: ")
-num = int(num)
-num = num + 3
+  num = input("Input an integer: ")
+  num = int(num)
+  num = num + 3
 print(num)
 def q2():
   num = input("Input a number: ")
@@ -30,8 +30,8 @@ def q5():
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
 
-#q1()
-#q2()
-#q3()
-#q4()
-#q5()
+q1()
+q2()
+q3()
+q4()
+q5()
