@@ -1,24 +1,37 @@
-
+import math
 def q1():
-  #Write Assignment code here
-
+num = input("Input an integer: ")
+num = int(num)
+num = num + 3
+print(num)
 def q2():
-  #Write Assignment code here
-
+  num = input("Input a number: ")
+  num = (num + "4")
+  num = float(num)
+  num = num + 2
+  print(num)
 def q3():
-  #Write Assignment code here
-
+  num = input("Input a radius: ")
+  num = float(num)
+  num = num ** 2
+  num = num * 3.14
+  print(num)
 def q4():
-  #Write Assignment code here
-
+  num = input("Input a number: ")
+  num = float(num)
+  num = num * 12
+  num = math.floor(num)
+  print(num)
 def q5():
-  #Write Assignment code here
-
+  num = input("Input an integer: ")
+  num = int(num)
+  num = num + 5
+  print (f"Your number + 5 is {num}")
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
 
-q1()
-q2()
-q3()
-q4()
-q5()
+#q1()
+#q2()
+#q3()
+#q4()
+#q5()
