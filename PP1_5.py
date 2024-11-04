@@ -3,7 +3,7 @@ def q1():
   num = input("Input an integer: ")
   num = int(num)
   num = num + 3
-print(num)
+  print(num)
 def q2():
   num = input("Input a number: ")
   num = (num + "4")
