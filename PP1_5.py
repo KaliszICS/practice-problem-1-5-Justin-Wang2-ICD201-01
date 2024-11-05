@@ -14,7 +14,9 @@ def q3():
   rad = input("Input a radius: ")
   rad1 = float(rad)
   pi = 3.14
-  num = pi * (rad1 * rad1)
+  twelve = 12
+  num = pi * (rad1 * twelve)
+  print(num)
 def q4():
   num = input("Input a number: ")
   num = float(num)
