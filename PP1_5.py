@@ -11,11 +11,10 @@ def q2():
   num = num + 2
   print(num)
 def q3():
-  rad = input("Input a radius: ")
-  rad1 = float(rad)
+  rad1 = input("Input a radius: ")
+  rad = float(rad1)
   pi = 3.14
-  twelve = 12
-  num = pi * (rad1 * twelve)
+  num = pi * (rad ** 2)
   print(num)
 def q4():
   num = input("Input a number: ")
